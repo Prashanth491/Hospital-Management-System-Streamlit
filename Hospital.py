@@ -9,7 +9,7 @@ class Database:
         self.conn = mysql.connector.connect(
             host="localhost",
             user="root",
-            password="Prashanth@45",
+            password="Password",
             database="hospital",
             auth_plugin='mysql_native_password'
         )
@@ -1191,4 +1191,5 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 
